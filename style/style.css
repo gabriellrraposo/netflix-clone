@@ -33,7 +33,7 @@ header .container {
 
 header nav a {
     color: #aaa;
-    margin: 2rem;
+    margin: 1.5rem;
 }
 
 header nav a:hover {
@@ -42,13 +42,21 @@ header nav a:hover {
 
 .banner-principal {
     font-size: 15px;
-    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url('/img/banner-principal.jpg');
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)), url('/img/banner-principal.jpg');
 
-    height: 360px;
+    height: 400px;
     background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.banner-principal h3{
-    font-size: 20px;
+.titulo{
+    font-size: 35px;
 }
 
+.banner-principal .descricao {
+    margin-bottom: 5rem;
+}
