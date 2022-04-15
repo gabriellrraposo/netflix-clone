@@ -1,0 +1,54 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--preto);
+    font-family: Poppins;
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'Bebas Neue';
+    color: var(--vermelho);
+    font-size: 2.5rem;
+    margin: .2rem;
+    margin-left: .5rem;
+}
+
+header nav a {
+    color: #aaa;
+    margin: 2rem;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+.banner-principal {
+    font-size: 15px;
+    background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50)100%), url('/img/banner-principal.jpg');
+
+    height: 360px;
+    background-size: cover;
+}
+
+.banner-principal h3{
+    font-size: 20px;
+}
+
