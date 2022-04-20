@@ -55,8 +55,28 @@ header nav a:hover {
 
 .titulo{
     font-size: 35px;
+    margin-top: 10%;
 }
 
 .banner-principal .descricao {
     margin-bottom: 5rem;
+}
+
+.botao {
+    background-color: rgba(0,0,0, .50);
+    color: white;
+    padding: .8rem;
+    
+    border: none;
+    cursor: pointer;
+
+    margin-left: 1.5%;
+    font-family: Poppins;
+}
+
+.botao:hover {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    transition: .4s;
+    border: 1px solid white;
 }
