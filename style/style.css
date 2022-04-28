@@ -58,8 +58,11 @@ header nav a:hover {
 }
 
 .titulo{
-    font-size: 35px;
     margin-top: 10%;
+    
+    font-size: 35px;
+    font-family: Akshar;
+    font-weight: lighter;
 }
 
 .banner-principal .descricao {
@@ -67,15 +70,25 @@ header nav a:hover {
 }
 
 .botao {
-    background-color: rgba(0,0,0, .50);
+    background-color: rgba(0,0,0, .70);
     color: white;
-    padding: .8rem;
     
+    font-family: Poppins;
     border: none;
+    border-radius: .22rem;
     cursor: pointer;
 
-    margin-left: 1.5%;
-    font-family: Poppins;
+    margin-right: 1.5%;
+    margin-bottom: 2%;
+    padding: .8rem;
+}
+
+.baixar {
+    width: 9.7rem;
+}
+
+.informacoes {
+    width: 12rem;
 }
 
 .botao:hover {
@@ -83,4 +96,12 @@ header nav a:hover {
     background-color: rgba(0,0,0,0.8);
     transition: .4s;
     border: 1px solid white;
+}
+
+.botao i {
+    margin-right: 6%;
+}
+
+section .container {
+    margin-left: 1%;
 }
