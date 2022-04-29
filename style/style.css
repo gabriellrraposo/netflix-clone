@@ -35,7 +35,7 @@ header .container {
 
 header nav a {
     color: #aaa;
-    margin: 1.5rem;
+    margin: 1rem;
 }
 
 header nav a:hover {
@@ -46,7 +46,7 @@ header nav a:hover {
 
 .banner-principal {
     font-size: 15px;
-    background: linear-gradient(rgba(0,0,0, .70), rgba(0,0,0, .30)), url('/img/banner-principal-teste.jpg');
+    background: linear-gradient(rgba(0,0,0, .75), rgba(0,0,0, .40)), url('/img/banner-principal-teste.jpg');
 
     height: 37%;
     background-size: cover;
@@ -55,6 +55,8 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    padding-bottom: 1.1%;
 }
 
 .titulo{
@@ -79,7 +81,7 @@ header nav a:hover {
     cursor: pointer;
 
     margin-right: 1.5%;
-    margin-bottom: 5%;
+    
     padding: .8rem;
 
     transition: 0.2s;
@@ -117,5 +119,9 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrossel-jogos {
+    margin-top: .5%;
 }
 
