@@ -56,6 +56,10 @@ footer nav {
     align-items: flex-start;
 }
 
+footer {
+    margin-top: 5%;
+}
+
 .opcaoFooter {
     display: flex;
     flex-direction: column;
@@ -90,7 +94,7 @@ footer nav {
 .container-contato a:hover {
     background-color: var(--vermelho);
     color: white;
-    border: #E50914;
+    border: var(--vermelho);
     transition: 0.2s;
 }
 
@@ -132,6 +136,7 @@ footer nav {
     align-items: flex-start;
 
     padding-bottom: 1.1%;
+    margin-bottom: 1%;
 }
 
 .titulo {
@@ -192,4 +197,27 @@ footer nav {
 
 .subTitulos {
     margin-bottom: .3%;
+    font-weight: 600;
+}
+
+/* Carrossel promoções */
+
+.item div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 12);
+    margin-top: 3%;
+    padding: 1% 5%;
+}
+
+.preco {
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.desconto {
+    color: var(--vermelho);
+    font-weight: 800;
+    font-size: 19px;
 }
