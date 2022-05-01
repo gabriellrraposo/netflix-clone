@@ -11,10 +11,45 @@
     .carrossel-jogos-destaque {
         margin-top: 1.2%;
     }
+
+    footer .container nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    footer .container nav div {
+        margin-left: 0;
+        margin-top: 15%;
+        width: 80%;
+    }
+
+    .container-contato {
+        width: 30%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
     .descricao {
         width: 70%;
+    }
+}
+
+@media screen and (max-width: 1033px) {
+    .container-contato {
+        margin-top: 5%;
+    }
+    
+    .container-contato i {
+        margin-left: 10%;
+    }
+
+    footer .container {
+        flex-direction: column;
+    }
+
+    footer #logo {
+        margin-bottom: 5%;
     }
 }

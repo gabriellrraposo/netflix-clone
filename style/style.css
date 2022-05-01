@@ -20,6 +20,8 @@ body {
 
 header, footer {
     background-color: rgb(12, 12, 12);
+    padding-left: .5%;
+    padding-right: .5%;
 }
 
 header .container, footer .container {
@@ -28,10 +30,6 @@ header .container, footer .container {
     align-items: center;
     justify-content: space-between;
     padding: .3% 0;
-}
-
-footer .container {
-    padding-right: 1.1%;
 }
 
 #logo {
@@ -60,11 +58,13 @@ footer nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: start;
 }
 
 footer {
     margin-top: 5%;
+    width: 100%;
+    padding: 2% .5%;
 }
 
 .opcaoFooter {
@@ -72,6 +72,10 @@ footer {
     flex-direction: column;
     justify-content: start;
     margin-left: 4rem;
+}
+
+.Inicio {
+    margin-left: 0;
 }
 
 .opcaoSecundaria {
