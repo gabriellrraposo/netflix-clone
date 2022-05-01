@@ -38,6 +38,13 @@ footer .container {
     font-family: 'Bebas Neue';
     color: var(--vermelho);
     font-size: 2.5rem;
+    transition: .2s;
+}
+
+#logo:hover {
+    color: #ff000d;
+    transition: .2s;
+    cursor: pointer;
 }
 
 header a, footer a {
@@ -78,7 +85,15 @@ footer {
     margin-right: 1%;
 }
 
-.container-contato a {
+.container-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 15%
+}
+
+#botao-contato {
     background-color: rgb(255, 255, 255);
     color: var(--vermelho);
     font-weight: bold;
@@ -91,25 +106,22 @@ footer {
     transition: 0.4s;
 }
 
-.container-contato a:hover {
+#botao-contato:hover {
     background-color: var(--vermelho);
     color: white;
-    border: var(--vermelho);
+    border: solid 1px var(--vermelho);
     transition: 0.2s;
-}
-
-.container-contato {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    width: 15%
 }
 
 .container-contato i {
     margin-left: 5%;
     width: 10%;
     height: 10%;
+}
+
+.container-contato i:hover {
+    color: var(--vermelho);
+    cursor: pointer;
 }
 
 .fa-tiktok {
@@ -183,6 +195,18 @@ footer {
     width: 60%;
 }
 
+/* Carrosséis */
+
+section img {
+    border-radius: .8rem;
+}
+
+.carrossel-jogos-promocoes img {
+    border-radius: .8rem .8rem 0 0;
+}
+
+
+
 /* Carrossel destaques */
 
 .box-jogos {
@@ -209,6 +233,8 @@ footer {
     background-color: rgb(12, 12, 12);
     margin-top: 3%;
     padding: 1% 5%;
+
+    border-radius: 0 0 .8rem .8rem;
 }
 
 .preco {
