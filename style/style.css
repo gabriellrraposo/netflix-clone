@@ -137,6 +137,26 @@ footer {
     text-align: center;
 }
 
+.item {
+    overflow: hidden;
+}
+
+.item img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    transition: .5s;
+}
+
+.item img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.carrossel-jogos-promocoes img:hover {
+    margin-bottom: 8%;
+    transition: .5s;
+}
+
 /* Banner Principal */
 
 .banner-principal {
@@ -237,6 +257,7 @@ section img {
     background-color: rgb(12, 12, 12);
     margin-top: 3%;
     padding: 1% 5%;
+    width: 100%;
 
     border-radius: 0 0 .8rem .8rem;
 }
