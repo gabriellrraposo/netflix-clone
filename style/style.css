@@ -153,8 +153,8 @@ footer {
 }
 
 .carrossel-jogos-promocoes img:hover {
-    margin-bottom: 8%;
-    transition: .5s;
+    -webkit-transform: scale(1.1);
+    transform: scale(0.94);
 }
 
 /* Banner Principal */
