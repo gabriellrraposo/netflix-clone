@@ -159,6 +159,7 @@ footer {
 .carrossel-jogos-promocoes img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(0.94);
+    border-radius: .8rem;
 }
 
 /* Banner Principal */
@@ -254,7 +255,7 @@ section img {
 
 /* Carrossel promoções */
 
-.item div {
+#jogosPromocoes .item div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -276,3 +277,6 @@ section img {
     font-weight: 800;
     font-size: 19px;
 }
+
+/* Carrossel Reviews */
+
