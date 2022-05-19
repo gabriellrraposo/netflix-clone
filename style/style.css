@@ -22,6 +22,12 @@ body {
     color: white;
 }
 
+/* header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+} */
 header, footer {
     background-color: rgb(12, 12, 12);
     padding-left: .5%;
@@ -143,6 +149,7 @@ footer {
 
 .item {
     overflow: hidden;
+    position: relative;
 }
 
 .item img {

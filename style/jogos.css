@@ -156,7 +156,7 @@ footer {
     transform: scale(1.1);
 }
 
-.carrossel-jogos-promocoes img:hover {
+.carrossel-mais-baixados img:hover {
     -webkit-transform: scale(1.1);
     transform: scale(0.94);
 }
@@ -167,6 +167,25 @@ section img {
     border-radius: .8rem;
 }
 
-.carrossel-jogos-promocoes img {
+.carrossel-mais-baixados img {
     border-radius: .8rem .8rem 0 0;
+}
+
+/* Mais baixados */
+
+#maisBaixados .item div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(12, 12, 12);
+    margin-top: 3%;
+    padding: 1% 5%;
+    width: 100%;
+
+    border-radius: 0 0 .8rem .8rem;
+}
+
+.preco {
+    font-weight: lighter;
+    font-size: 17px;
 }
