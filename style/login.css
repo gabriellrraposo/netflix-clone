@@ -37,11 +37,17 @@ body {
     background-color: rgb(12, 12, 12);
     padding-left: .5%;
     padding-right: .5%;
+    height: 5.5vh;
 }
 
 /* FOOTER */
 
-
+#footer-main {
+    background-color: rgb(12, 12, 12);
+    padding-left: .5%;
+    padding-right: .5%;
+    height: 5.5vh;
+}
 
 /* MAIN */
 
@@ -50,7 +56,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 89vh;
 }
 
 #container-welcome {
@@ -81,4 +87,27 @@ body {
 #container-login {
     background-color: rgb(5, 5, 5);
     border-radius: .22rem;
+    height: 50%;
+    width: 45%;
+
+    padding: 2.5%;
+}
+
+#campos-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+#opcoes-abaixo-login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
