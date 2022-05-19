@@ -1,0 +1,84 @@
+/* GERAL */
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to left, var(--preto) 65%, var(--vermelho));
+    color: white;
+    font-family: Poppins;
+}
+
+#logo {
+    font-family: 'Bebas Neue';
+    color: var(--vermelho);
+    font-size: 2.5rem;
+    transition: .2s;
+}
+
+#logo:hover {
+    color: #ff000d;
+    transition: .2s;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+#header-main {
+    background-color: rgb(12, 12, 12);
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+/* FOOTER */
+
+
+
+/* MAIN */
+
+#container-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+#container-welcome {
+    height: 100%;
+    width: 60%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px white;
+}
+
+#container-box-login {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 2px white;
+}
+
+#container-login {
+    background-color: rgb(5, 5, 5);
+    border-radius: .22rem;
+}
