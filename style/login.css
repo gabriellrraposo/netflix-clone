@@ -13,7 +13,7 @@
 }
 
 body {
-    background: linear-gradient(to left, var(--preto) 75%, var(--vermelho));
+    background: linear-gradient(to left, rgb(12, 12, 12), var(--preto) 75%);
     color: white;
     font-family: Poppins;
 }
@@ -69,7 +69,8 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: solid 2px white;
+    /* border: solid 1px white; */
+
 }
 
 #container-box-login {
@@ -81,7 +82,6 @@ body {
     justify-content: center;
     align-items: center;
 
-    border: solid 2px white;
 }
 
 #container-login {
@@ -119,9 +119,30 @@ main footer {
     font-size: .9rem;
 }
 
-#nomeGameverse {
+.nomeGameverse {
     font-family: Bebas Neue;
     font-size: 2rem;
+}
+
+.grande {
+    font-size: 5rem;
+}
+
+.containerTextoWelcome {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    text-align: left;
+
+    font-size: 2rem;
+}
+
+.containerTextoWelcome h3 {
+    font-weight: 200;
 }
 
 #container-login main {
@@ -138,4 +159,13 @@ main footer {
     
     color: white;
     font-size: .95rem;
+}
+
+#opcoes-abaixo-login div input[type=checkbox] {
+    cursor: pointer;
+}
+
+#opcoes-abaixo-login a {
+    color: white;
+    text-decoration: underline;
 }
