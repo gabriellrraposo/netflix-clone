@@ -87,17 +87,12 @@ body {
 #container-login {
     background-color: rgb(5, 5, 5);
     border-radius: .22rem;
-    height: 50%;
-    width: 40%;
+    min-height: 50%;
+    min-width: 40%;
 
     padding: 2.5%;
 }
 
-#campos-login {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-}
 
 #opcoes-abaixo-login {
     display: flex;
@@ -152,13 +147,52 @@ main footer {
 #campos-login input {
     margin-bottom: 5%;
     
-    height: 3vh;
+    height: 4vh;
     background: rgba(29, 29, 29, .25);
     border-style: none;
     border-bottom: solid 2px white;
     
     color: white;
     font-size: .95rem;
+
+    padding-left: 1%;
+}
+
+#campos-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.botaoLogin button {
+    height: 4vh;
+    width: 10vw;
+
+    font-size: 1.3rem;
+    font-family: Poppins;
+
+    border-radius: .22rem;
+
+    margin-top: 6%;
+}
+
+.botaoLogin {
+    display: flex;
+    justify-content: center;
+}
+
+#campos-login input:focus {
+    box-shadow: 0;
+    outline: 0;
+}
+
+#campos-login input::-webkit-input-placeholder {
+    font-size: 1rem;
+    font-family: Poppins;
+}
+
+#campos-login input::-webkit-input-placeholder:active {
+    font-size: 1.5rem;
 }
 
 #opcoes-abaixo-login div input[type=checkbox] {
