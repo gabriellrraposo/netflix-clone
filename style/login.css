@@ -231,13 +231,25 @@ main footer span {
     font-family: Poppins;
 }
 
-#campos-login input::-webkit-input-placeholder:active {
-    font-size: 1.5rem;
+/* .cboxLembrar input{
+    display: none;
 }
 
-#opcoes-abaixo-login div input[type=checkbox] {
-    cursor: pointer;
+#cboxLembrar input + label:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 0.12rem;
+    background-color: white;
+    display: inline-block;
+    border: solid 2px black;
+    vertical-align: middle;
 }
+
+#cboxLembrar input:checked + label:before {
+    background-color: red;
+} */
+    
 
 #opcoes-abaixo-login a {
     color: white;
