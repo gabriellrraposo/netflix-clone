@@ -107,6 +107,33 @@ main footer {
     text-align: center;
 }
 
+main footer span {
+    font-size: 1.05rem;
+}
+
+.container-icones-login {
+    display: flex;
+    justify-content: center;
+}
+
+.container-icones {
+    min-width: 30%;
+
+    margin-top: 5%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-icones-login i {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.container-icones-login i:hover {
+    color: rgb(218, 218, 218);
+}
+
 #container-login header {
     display: flex;
     flex-direction: column;
@@ -165,8 +192,9 @@ main footer {
 }
 
 .botaoLogin button {
-    height: 4.5vh;
-    width: 10vw;
+    min-height: 4.5vh;
+    width: 35%;
+    min-width: 15%;
 
     font-size: 1.3rem;
     font-family: Poppins;
