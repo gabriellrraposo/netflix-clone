@@ -13,7 +13,7 @@
 }
 
 body {
-    background: linear-gradient(to left, var(--preto) 65%, var(--vermelho));
+    background: linear-gradient(to left, var(--preto) 75%, var(--vermelho));
     color: white;
     font-family: Poppins;
 }
@@ -61,7 +61,7 @@ body {
 
 #container-welcome {
     height: 100%;
-    width: 60%;
+    width: 40%;
     text-align: center;
 
     display: flex;
@@ -88,7 +88,7 @@ body {
     background-color: rgb(5, 5, 5);
     border-radius: .22rem;
     height: 50%;
-    width: 45%;
+    width: 40%;
 
     padding: 2.5%;
 }
@@ -110,4 +110,32 @@ main footer {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+}
+
+#container-login header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: .9rem;
+}
+
+#nomeGameverse {
+    font-family: Bebas Neue;
+    font-size: 2rem;
+}
+
+#container-login main {
+    margin: 7% 0 10% 0;
+}
+
+#campos-login input {
+    margin-bottom: 5%;
+    
+    height: 3vh;
+    background: rgba(29, 29, 29, .25);
+    border-style: none;
+    border-bottom: solid 2px white;
+    
+    color: white;
+    font-size: .95rem;
 }
