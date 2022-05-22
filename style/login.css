@@ -165,15 +165,27 @@ main footer {
 }
 
 .botaoLogin button {
-    height: 4vh;
+    height: 4.5vh;
     width: 10vw;
 
     font-size: 1.3rem;
     font-family: Poppins;
+    font-weight: bold;
 
     border-radius: .22rem;
 
     margin-top: 6%;
+
+    background-color: white;
+    cursor: pointer;
+    color: var(--vermelho);
+    transition: 0.4s;
+}
+
+.botaoLogin button:hover {
+    background-color: var(--vermelho);
+    color: white;
+    transition: 0.2s;
 }
 
 .botaoLogin {
