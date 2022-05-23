@@ -160,7 +160,7 @@ footer {
 
 .item img:hover {
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(0.94);
 }
 
 .carrossel-jogos-promocoes img:hover {
