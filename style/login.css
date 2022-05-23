@@ -42,7 +42,7 @@ body {
 
 /* FOOTER */
 
-#footer-main {
+.footer-main {
     background-color: rgb(12, 12, 12);
     padding-left: .5%;
     padding-right: .5%;
@@ -61,7 +61,7 @@ main footer span {
 
 /* MAIN */
 
-#container-principal {
+.container-principal {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +69,9 @@ main footer span {
     height: 89vh;
 }
 
-#container-welcome {
+/* CAIXA WELCOME */
+
+.container-welcome {
     height: 100%;
     width: 40%;
     text-align: center;
@@ -78,23 +80,7 @@ main footer span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    /* border: solid 1px white; */
-
 }
-
-#container-box-login {
-    height: 100%;
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-
-/* CAIXA WELCOME */
 
 .containerTextoWelcome {
     height: 50%;
@@ -115,7 +101,17 @@ main footer span {
 
 /* CAIXA LOGIN */
 
-#container-login {
+.container-box-login {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login {
     background-color: rgb(5, 5, 5);
     border-radius: .22rem;
     min-height: 50%;
@@ -124,24 +120,24 @@ main footer span {
     padding: 2.5%;
 }
 
-#container-login header {
+.container-login header {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: .9rem;
 }
 
-#container-login main {
+.container-login main {
     margin: 7% 0 10% 0;
 }
 
-#campos-login {
+.campos-login {
     display: flex;
     flex-direction: column;
     justify-content: start;
 }
 
-#campos-login input {
+.campos-login input {
     margin-bottom: 5%;
     
     height: 4vh;
@@ -155,12 +151,12 @@ main footer span {
     padding-left: 1%;
 }
 
-#campos-login input:focus {
+.campos-login input:focus {
     box-shadow: 0;
     outline: 0;
 }
 
-#campos-login input::-webkit-input-placeholder {
+.campos-login input::-webkit-input-placeholder {
     font-size: 1rem;
     font-family: Poppins;
 }
@@ -195,13 +191,13 @@ main footer span {
     transition: 0.2s;
 }
 
-#opcoes-abaixo-login {
+.opcoes-abaixo-login {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#opcoes-abaixo-login a {
+.opcoes-abaixo-login a {
     color: white;
     text-decoration: underline;
 }
@@ -228,22 +224,3 @@ main footer span {
     display: flex;
     justify-content: space-between;
 }
-
-/* .cboxLembrar input{
-    display: none;
-}
-
-#cboxLembrar input + label:before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    border-radius: 0.12rem;
-    background-color: white;
-    display: inline-block;
-    border: solid 2px black;
-    vertical-align: middle;
-}
-
-#cboxLembrar input:checked + label:before {
-    background-color: red;
-} */
