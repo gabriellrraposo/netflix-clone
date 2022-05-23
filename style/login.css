@@ -42,22 +42,6 @@ body {
 
 /* FOOTER */
 
-.footer-main {
-    background-color: rgb(12, 12, 12);
-    padding-left: .5%;
-    padding-right: .5%;
-}
-
-main footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-main footer span {
-    font-size: 1.05rem;
-}
 
 /* MAIN */
 
@@ -66,7 +50,7 @@ main footer span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 89vh;
+    height: 100vh;
 }
 
 /* CAIXA WELCOME */
@@ -200,6 +184,17 @@ main footer span {
 .opcoes-abaixo-login a {
     color: white;
     text-decoration: underline;
+}
+
+main footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main footer span {
+    font-size: 1.05rem;
 }
 
 .container-icones-login {
