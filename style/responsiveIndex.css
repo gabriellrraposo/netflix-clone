@@ -7,6 +7,10 @@
     .opcoes-abaixo-login div, .opcoes-abaixo-login a {
         margin-bottom: 2%;
     }
+
+    .container-welcone {
+        padding-bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 1197px) {
@@ -42,6 +46,18 @@
 
     .fa-google-plus {
         margin-left: 7%;
+    }
+
+    .campos-login input {
+        margin-bottom: 7%;
+    }
+
+    .container-botaoSignUp a {
+        width: 60%;
+    }
+
+    #possuiConta a {
+        display: block;
     }
 }
 
