@@ -52,8 +52,8 @@
 }
 
 @media screen and (max-height:1020px) {
-    .containerTextoWelcome {
-        margin-top: 10%;
+    .container-principal {
+        padding-top: 10%;
     }
 }
 
