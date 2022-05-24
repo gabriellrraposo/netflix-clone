@@ -163,9 +163,13 @@ body {
     justify-content: center;
 }
 
+.container-botaoLogin a {
+    min-width: 35%;
+}
+
 .container-botaoLogin button {
     min-height: 4.5vh;
-    width: 35%;
+    width: 100%;
     min-width: 15%;
 
     font-size: 1.3rem;
