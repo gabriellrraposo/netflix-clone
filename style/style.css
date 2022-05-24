@@ -213,7 +213,7 @@ main footer {
 }
 
 main footer span {
-    font-size: 1.05rem;
+    font-size: 1rem;
 }
 
 .container-icones-login {
@@ -237,4 +237,13 @@ main footer span {
     
     display: flex;
     justify-content: space-between;
+}
+
+#possuiConta {
+    margin-top: 10%;
+}
+
+#possuiConta a {
+    color: white;
+    text-decoration: underline;
 }
