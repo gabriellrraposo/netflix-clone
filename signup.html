@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GAMEVERSE | Login</title>
+    <title>GAMEVERSE | Sign Up</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/signup.css">
+
 
     <!-- Responsividade -->
-    <link rel="stylesheet" href="./style/responsiveIndex.css">
+    <link rel="stylesheet" href="./style/responsiveSignUp.css">
     
     <link rel="shortcut icon" href="./img/logoGameverse.ico" type="image/x-icon">
 
@@ -34,32 +35,26 @@
             <div class="container-login">
                 <header>
                     <h1 class="nomeGameverse">GAMEVERSE</h1>
-                    <h2>Login</h2>
+                    <h2>Sign Up</h2>
                 </header>
                 <main>
                     <div class="campos-login">
-                        <div class="containerEmail"><i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email" ></div>
+                        <div class="containerNome"><i class="fa-solid fa-user"></i><input type="text" placeholder="Usuário"></div>
+                        <div class="containerEmail"><i class="fa-solid fa-envelope"></i><input type="email" placeholder="Email"></div>
                         <div class="containerSenha"><i class="fa-solid fa-lock"></i><input type="password" placeholder="Senha"></div>
+                        <div class="containerConSenha"><i class="fa-solid fa-lock"></i><input type="password" placeholder="Confirmar senha"></div>
                     </div>
-
-                    <div class="opcoes-abaixo-login">
-                        <div class="cboxLembrar">
-                            <input type="checkbox" id="checkboxLembrar">
-                            <label for="checkboxLembrar">Lembrar-se de mim</label>
-                        </div>
-
-                        <a href="#">Esqueceu sua senha?</a>
-                    </div>
-                    <div class="container-botaoLogin"><a href="./inicio.html"><button>Login</button></a></div>
+                    <div class="container-botaoSignUp"><a href="./inicio.html"><button>Sign Up</button></a></div>
                 </main>
                 <footer>
-                    <span>Login com:</span>
+                    <span>Sign Up com:</span>
                     <div class="container-icones-login">
                         <div class="container-icones">
                             <i class="fa-brands fa-facebook"></i>
                             <i class="fa-brands fa-google-plus"></i>
                         </div>
                     </div>
+                    <span id="possuiConta">Já possui uma conta? <a href="./index.html">Login</a></span>
                 </footer>
             </div>
         </section>
