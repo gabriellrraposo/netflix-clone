@@ -22,12 +22,6 @@ body {
     color: white;
 }
 
-/* header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-} */
 header, footer {
     background-color: rgb(12, 12, 12);
     padding-left: .5%;
@@ -284,6 +278,4 @@ section img {
     font-weight: 800;
     font-size: 19px;
 }
-
-/* Carrossel Reviews */
 
