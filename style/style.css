@@ -248,3 +248,16 @@ main footer span {
     color: white;
     text-decoration: underline;
 }
+
+#saibaMais {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3rem;
+
+    margin-top: 3%;
+    /* text-decoration: underline 1px; */
+}
+
+#saibaMais:hover {
+    text-decoration: underline 1px;
+}
