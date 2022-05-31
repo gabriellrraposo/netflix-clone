@@ -28,6 +28,10 @@ header, footer {
     padding-right: .5%;
 }
 
+header {
+    margin-bottom: 5%;
+}
+
 header .container, footer .container {
     display: flex;
     flex-direction: row;
@@ -145,11 +149,27 @@ main section {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .container-textoSaibaMais {
     min-width: 20%;
     max-width: 30%;
 
-    
+    font-size: 1rem;
+}
+
+#sectionDesenvolvedor {
+    display: flex;
+    flex-direction: column;
+}
+
+#apresentacao {
+    display: flex;
+    flex-direction: row;
+}
+
+#apresentacao div {
+    display: flex;
+    flex-direction: column;
 }
