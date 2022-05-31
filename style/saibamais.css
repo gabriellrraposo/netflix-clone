@@ -145,31 +145,77 @@ footer {
     text-align: center;
 }
 
-main section {
+#sectionTextoIntroducao {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+
+    margin: 0 5%;
 }
 
 .container-textoSaibaMais {
     min-width: 20%;
     max-width: 30%;
 
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 #sectionDesenvolvedor {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    margin-top: 10%;
+    background-color: rgb(17, 17, 17);
+    padding: 3% 0 5% 0;
+}
+
+#sectionDesenvolvedor h1 {
+    font-size: 2rem;
+}
+
+#apresentacao p {
+    max-width: 50%;
 }
 
 #apresentacao {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin: 0 5%;
+}
+
+#apresentacao img {
+    margin-right: 5%;
 }
 
 #apresentacao div {
     display: flex;
     flex-direction: column;
+}
+
+#sectionRedesSociais {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#sectionRedesSociais a {
+    width: fit-content;
+}
+
+#sectionRedesSociais h1 {
+    font-size: 3rem;
+}
+
+#sectionRedesSociais i {
+    color: white;
+    font-size: 2.8rem;
+    
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+#sectionRedesSociais i:hover {
+    color: var(--vermelho);
 }
