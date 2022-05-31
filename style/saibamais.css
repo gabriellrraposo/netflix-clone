@@ -156,7 +156,7 @@ footer {
 
 .container-textoSaibaMais {
     min-width: 20%;
-    max-width: 30%;
+    max-width: 40%;
 
     font-size: 1.3rem;
 }
@@ -173,6 +173,7 @@ footer {
 
 #sectionDesenvolvedor h1 {
     font-size: 2rem;
+    margin-bottom: 3%;
 }
 
 #apresentacao p {
@@ -218,4 +219,8 @@ footer {
 
 #sectionRedesSociais i:hover {
     color: var(--vermelho);
+}
+
+.container-imagemSaibaMais {
+    text-align: center;
 }
